@@ -43,6 +43,24 @@ header nav ul li {
   display: inline-block;
   margin-right: 20px;
 }
+
+header nav ul li svg {
+  width: 28px;
+  height: 24px;
+}
+
+svg.nav-icon .st0 {
+  fill: #39ADD1;
+}
+
+svg.nav-icon .st0:hover {
+  fill: #BA8058;
+}
+
+nav a:hover {
+  color: #BA8058;
+}
+
 header h1 {
   line-height: 1em;
 }
@@ -77,3 +95,27 @@ footer {
   padding-bottom: 30px;
   color: #ba8058;
 }
+
+.logo-heading {
+  display: none;
+}
+
+ul#dogs-list li img {
+  width: 170px;
+  height: 100%;
+}
+
+@media screen and (max-width: 420px) {
+  .logo-copy {
+    display: none;
+  }
+
+  .logo-heading {
+    display: block;
+  }
+
+  ul#dogs-list li {
+    width: 100%;
+    margin: 0 auto;
+  }
+} 
